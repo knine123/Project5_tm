@@ -34,7 +34,7 @@
     </script>
 </head>
 <body>
-<h1>자유게시판</h1>
+<h1>자유게시판</h1> <div id="logout"><a href="login/logout">logout</a></div>
 <table id = "list" width="90%">
     <tr>
         <th>작성번호</th>

@@ -33,8 +33,20 @@
             <td>${u.writer}</td>
         </tr>
         <tr>
+            <td>출연자 :</td>
+            <td>${u.actor}</td>
+        </tr>
+        <tr>
             <td>줄거리:</td>
             <td>${u.content}</td>
+        </tr>
+        <tr>
+            <td>별점:</td>
+            <td>${u.star}</td>
+        </tr>
+        <tr>
+            <td>년도:</td>
+            <td>${u.year}</td>
         </tr>
         <tr>
             <td>작성날짜:</td>

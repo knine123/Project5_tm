@@ -18,6 +18,9 @@
 	<table id="edit">
 		<tr><td>제목:</td><td><form:input path="title"  /></td></tr>
 		<tr><td>감독:</td><td><form:input path="writer"  /></td></tr>
+		<tr><td>출연자:</td><td><form:input path="actor"  /></td></tr>
+		<tr><td>별점:</td><td><form:input path="star"  /></td></tr>
+		<tr><td>연도:</td><td><form:input path="year" type="date"  min="1895-12-25" max="2098-12-31" /></td></tr>
 		<tr><td>줄거리:</td><td><form:textarea cols="50" rows="5" path="content" /></td></tr>
 		<tr><td>카테고리:</td><td><form:input path="category"  /></td></tr>
 
